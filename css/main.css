@@ -20,25 +20,34 @@ input {
     padding: 1em;
     border-radius: 2em;
     border-width: 0.1em;
-    border-color: #00977ec2;
+    border-color: rgb(255, 115, 0);
+    transition: 0.5s;
+}
+input:focus {
+    border-color: darkslategray;
+    transition: 0.1s;;
 }
 input.submit {
     
     border: 0;
     font-weight: bold;
     color: white;
-    background: darkslategrey;
+    background: rgb(255, 115, 0);
+    transition: 0.5s;
+}
+
+input.submit:hover {
+    background-color: darkslategray;
+    transition: 0.1s;
 }
 button {
-    border-style: solid;
+    border-style: none;
     font-size: 2rem;
     padding: 0.6em;
     font-weight: bold;
-    background-color: rgb(194, 229, 209);
+    background-color: rgb(255, 115, 0);
     border-radius: 4em;
-    border-width: 0.07em;
-    border-color: rgb(255, 115, 0);
-    color: rgb(255, 115, 0);
+    color: white;
     transition: 0.5s;
 }
 button:hover {
