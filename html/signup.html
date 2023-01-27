@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/sign-up.css">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon"/>
+    <title>Sign Up</title>
+</head>
+<body>
+    <form>
+        <input class="email" type="text" placeholder=" Email"> <br>
+        <input class="text" type="text" placeholder=" Password"><br>
+        <p>Availability</p>
+        <div id = "m-w-f" class="m-w-f">
+            <input class="activity-level" type="radio" value="activity level" ><label>Monday</label><br>
+            <input class="activity-level" type="radio" value="activity level" ><label>Wednesday</label><br>
+            <input class="activity-level" type="radio" value="activity level" ><label>Friday</label>
+        </div>
+        <div class="t-t-s">
+            <input class="activity-level" type="radio" value="activity level" ><label>Tuesday</label><br>
+        <input class="activity-level" type="radio" value="activity level" ><label>Thursday</label><br>
+        <input class="activity-level" type="radio" value="activity level" ><label>Saturday</label>
+        </div>
+        
+        
+        <p>Activity level</p><br>
+        <input list="browsers" name="browser" id="browser">
+        <datalist id="browsers">
+            <option value="Very active">
+            <option value="Moderately Active">
+            <option value="Not very Active">
+            <option value="Not active">
+            <option value="Glued to the chair 24/7">
+        </datalist> <br>
+
+        <p>When do you want to start?</p>
+        <input type="date" id="birthday" name="birthday"><br>
+        <input type="checkbox"><label class="checkbox">I've read and accept the Privacy Policy</label><br>
+        <p class="fineprint">By registering you agree that your personal data may be shared or sold to China <br>
+        and might be public as of our non existant security</p>
+        <br><input class="sign-up" type="submit" value="Sign Up">
+    </form>
+</body>
+</html>

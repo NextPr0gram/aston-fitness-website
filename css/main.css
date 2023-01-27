@@ -1,0 +1,110 @@
+a {
+    text-decoration: none;
+    color:darkslategrey;
+}
+
+body {
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3rem;
+    margin: auto;
+}
+h1.header1 {
+    font-weight: bold;
+    font-size: 4rem;
+}
+
+input {
+    
+    font-size: 1rem;
+    padding: 1em;
+    border-radius: 2em;
+    border-width: 0.1em;
+    border-color: #00977ec2;
+}
+input.submit {
+    
+    border: 0;
+    font-weight: bold;
+    color: white;
+    background: darkslategrey;
+}
+button {
+    border-style: solid;
+    font-size: 2rem;
+    padding: 0.6em;
+    font-weight: bold;
+    background-color: rgb(194, 229, 209);
+    border-radius: 4em;
+    border-width: 0.07em;
+    border-color: rgb(255, 115, 0);
+    color: rgb(255, 115, 0);
+    transition: 0.5s;
+}
+button:hover {
+    border-color: darkslategrey;
+    color: white;
+    background-color: darkslategrey;
+    cursor: pointer;
+    transition: 0.1s;
+}
+.sign-up-button-text {
+    color:rgb(255, 115, 0);
+}
+
+.sign-up-form {
+    padding-block: 1.5em;
+}
+
+
+blockquote {
+    font-style: italic;
+}
+header {
+    padding: 1em;
+    padding-inline: 9%;
+    display: flex;
+    margin: 0;
+
+}
+.login {
+    margin-block: auto;
+    margin-left: auto;
+    padding: 0em;
+    float: right;
+    
+}
+img {
+    width: 10em;
+}
+.hero {
+    /* The image used */
+  background-image: url("img_parallax.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-image: url(..//images/pexels-victor-freitas-841130.jpg);
+    background-repeat: no-repeat;
+    background-size: 95em;
+    margin: 0;
+    padding-top: 5em;
+    padding-bottom:14em;
+}
+.hero-contents {
+    padding-inline:15em ;
+}
+.heading {
+    font-size: 7rem;
+    margin-block: 0.5em;
+    color: white;
+}
+.heading-smarter, .heading-harder{
+    isolation: isolate;
+    background-color: rgba(47, 79, 79, 0.699);
+    color: rgb(255, 115, 0);
+    
+}
+.hero-subheading {
+    font-size: 1.5rem;
+    color: rgb(206, 223, 223);
+}

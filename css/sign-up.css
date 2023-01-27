@@ -1,0 +1,46 @@
+
+a {
+    text-decoration: none;
+    color: coral;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3rem;
+    padding-inline: 2em;
+}
+h1.header1 {
+    font-weight: bold;
+    font-size: 4rem;
+}
+
+input {
+    font-size: 1rem;
+    border-color: coral;
+    border-radius: 30em;
+    color: coral;
+}
+button {
+    font-size: 1rem;
+    border-color: coral;
+    border-radius: 30em;
+    color: coral;
+}
+
+
+blockquote {
+    font-style: italic;
+}
+
+label {
+    font-size: 0.8rem;
+}
+
+.m-w-f {
+    float:left;
+}
+
+.fineprint {
+    font-size: 0.7rem;
+    color: gray;
+}
