@@ -23,6 +23,7 @@ input {
     border-color: rgb(255, 115, 0);
     transition: 0.5s;
 }
+
 input:focus {
     border-color: darkslategray;
     transition: 0.1s;;
@@ -70,11 +71,29 @@ blockquote {
     font-style: italic;
 }
 header {
-    padding: 1em;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    justify-content: space-between;
+    z-index: 1000000;
+    background: white;
+    padding-block: 1em;
     padding-inline: 9%;
     display: flex;
     margin: 0;
+    box-sizing: border-box;
+    transition:  0.1s;
 
+}
+header.sticky {
+    padding-block: 0.7em;
+    transition: 0.1s;
+}
+
+header.sticky img {
+    
+    content: url("../images/aston-fitness-sticky.svg");
 }
 .login {
     margin-block: auto;
@@ -87,8 +106,8 @@ img {
     width: 10em;
 }
 .hero {
-    /* The image used */
-  background-image: url("img_parallax.jpg");
+
+    background-image: url("img_parallax.jpg");
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
@@ -96,7 +115,7 @@ img {
     background-repeat: no-repeat;
     background-size: 95em;
     margin: 0;
-    padding-top: 5em;
+    padding-top: 10em;
     padding-bottom:14em;
 }
 .hero-contents {
@@ -116,4 +135,24 @@ img {
 .hero-subheading {
     font-size: 1.5rem;
     color: rgb(206, 223, 223);
+}
+
+section.why-join-up {
+    display: block;
+    text-align: left;
+    
+}
+
+h2.why-join-up-heading {
+    margin-inline: auto;
+    max-inline-size: 10em;
+    font-size: 7rem;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+p {
+    margin-left: auto;
+    margin-right: auto;
 }

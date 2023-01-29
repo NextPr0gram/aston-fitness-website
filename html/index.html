@@ -11,19 +11,25 @@
 
 <body>
     <header>
-        <img src="../images/aston-fitness.svg.svg" alt="">
+        <img src="../images/aston-fitness.svg" alt="">
         <form class="login" action="login">
             <input class="email" type="email" placeholder=" Email">
             <input class="password" type="password" placeholder=" Password">
             <input class="submit" type="submit" value="Sign In">
         </form>
-
-        
     </header>
+
     <div class="hero">
+        <script type="text/javascript">
+            window.addEventListener("scroll", function(){
+                var header = document.querySelector("header");
+                header.classList.toggle("sticky", window.scrollY >0)
+            })
+        </script>
         <div class="hero-contents">
+           
             <h1 class="heading">Exercise <span class="heading-smarter">Smarter.</span> <br/>Not <span><span class="heading-harder">Harder.</span></h1>
-            <p class="hero-subheading">We give you the information that you need to make the best<br/> choices about your fitness.</p>
+            <p class="hero-subheading">We give you the information that you need to make the best<br/> choices about your fitness.</p> <br>
             <form class="sign" action="signup.html">
                 <button class="sign-up" >Sign Up Now!</button>
             </form>
@@ -32,13 +38,16 @@
     </div>
     
     
+    <section class="why-join-up">
+        <h2 class="why-join-up-heading">Why join up?</h2>
+        <p>
+            Learn to manage your fitness <br><br>
+            Get personalised feedback and encouragement <br><br>
+            Share your progress with friend
+        </p>
+    </section>
+ 
     
-    <h2>Why join up?</h2>
-    <p>
-        Learn to manage your fitness <br><br>
-        Get personalised feedback and encouragement <br><br>
-        Share your progress with friend
-    </p>
     <h2>What Our Users Say About Us</h2>
 
     <BLockquote>"It's great to learn about fitness and challenge my fiends" <br>-Alice</BLockquote>
